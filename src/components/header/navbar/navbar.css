@@ -1,0 +1,18 @@
+.navbar{
+ display:  flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 30px;
+}
+.navbar .links {
+    display: flex;
+    gap: 40px;
+    color: var(--color0);
+  
+   
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  
+}
