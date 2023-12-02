@@ -1,26 +1,26 @@
 import React from 'react'
-// import { NavLink, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 const Linksler = () => {
     return (
         <div className='links'>
-            <a to="">
+            <NavLink className={({ isActive }) =>isActive ? "navActive" : ""} to='/' >
                 Home
-            </a>
-            <a>
+            </NavLink>
+            <NavLink to= ''>
                 About
-            </a>
-            <a>
+            </NavLink>
+            <NavLink to=''>
                 Products
-            </a>
-            <a>
+            </NavLink>
+            <NavLink to=''>
                 Collections
-            </a>
-            <a>
+            </NavLink>
+            <NavLink to=''>
                 Sale
-            </a>
-            <a>
+            </NavLink>
+            <NavLink to=''>
                 Contact
-            </a>
+            </NavLink>
         </div>
     )
 }

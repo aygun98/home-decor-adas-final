@@ -1,32 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css'
+import MobileNavbar from './MobileNavbar/MobileNavbar'
+import TopNavbar from './navbar/TopNavbar'
 import Navbar from './navbar/Navbar'
-import logo from './navbar/nav-img/logo.png'
-import Search from './Baglanti.jsx/Search'
-import Person from './Baglanti.jsx/Person'
-import Sebet from './Baglanti.jsx/Sebet'
+
+
 
 const Header = () => {
+
+  const [mobileMenu, setMobileMenu] = useState(false)
+  const showMobil = () => { setMobileMenu(true) }
+  const closeMobil = () => { setMobileMenu(false) }
   return (
     <header className='nav-container'>
-      <div className='top'>
-        <div className='top-left'>
-          <span>AZ</span>
-          <div>
-            <Search />
-          </div>
-
-        </div>
-        <div className='top-center'>
-          <img src={logo} alt="" /></div>
-        <div className='top-right'>
-          <div>
-            <Person />
-          </div>
-          <div>
-            <Sebet />
-          </div>
-        </div>
+      <div className={`bg-mobile-navbar-container ${mobileMenu ? 'bg-menuaktiv' : ''}`}></div>
+      <div className={`mobile-navbar-container ${mobileMenu ? 'menuaktiv' : ''}`}>
+        <MobileNavbar closeMobil={closeMobil} />
+      </div>
+      <div>
+        <TopNavbar showMobil={showMobil} />
       </div>
       <Navbar />
     </header>

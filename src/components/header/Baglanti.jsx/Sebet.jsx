@@ -2,7 +2,10 @@ import React from 'react'
 import sebetIcon from '../navbar/nav-img/sebet.png'
 const Sebet = () => {
   return (
-    <img src={sebetIcon} alt="" />
+    <div className="sebet-icon cursor">
+
+      <img src={sebetIcon} alt="" />
+    </div>
   )
 }
 

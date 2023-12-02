@@ -1,0 +1,93 @@
+.bg-mobile-navbar-container {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(4, 8, 8, 0.24);
+    width: 100%;
+    /* top: -100%; */
+    height: 100vh;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+.mobile-navbar-container {
+    position: fixed;
+    z-index: 2;
+    /* background-color: rgba(4, 8, 8, 0.377); */
+    width: 100%;
+    top: -100%;
+    height: 100vh;
+    left: 0;
+    /* top: 0; */
+    transform: 1s;
+   
+}
+.mobile-navbar-container nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--bg-colo0);
+ 
+    width: 100%;
+    height: 75vh;
+    padding: 20px ;
+    gap: 20px;
+
+}
+.mobile-navbar-container .diller{
+
+    display: flex;
+    /* align-self: center; */
+    gap: 15px;
+    border: 1px solid var(--bg-color1);
+    border-radius: 5px;
+}
+.mobile-navbar-container .diller span{
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+}
+.mobile-navbar-container .diller span:first-child{
+background-color: var(--bg-color1);
+}
+.mobile-navbar-container nav .icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mobile-navbar-container nav .icons .person-sebet {
+    display: flex;
+    gap: 10px;
+}
+.mobile-navbar-container .links{
+    display: flex;
+    flex-direction: column;
+     gap: 27px;
+     padding: 20px 0;
+}
+.nav-container .mobile-navbar-container .links a {
+    width: max-content;
+    text-decoration: none;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+   
+}
+
+/* active */
+
+.bg-mobile-navbar-container.bg-menuaktiv {
+    transition: 1s;
+    opacity: 1;
+    visibility: visible;
+}
+.mobile-navbar-container.menuaktiv {
+    transition: 1s;
+    top: 0;
+}

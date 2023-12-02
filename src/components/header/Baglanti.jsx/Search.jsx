@@ -3,7 +3,10 @@ import searchIcon from '../navbar/nav-img/search.png'
 
 const Search = () => {
   return (
-   <img src={searchIcon} alt="" />
+    <div className='search-icon cursor'>
+
+      <img src={searchIcon} alt="" />
+    </div>
   )
 }
 

@@ -10,7 +10,7 @@ import Linksler from './Linksler'
 const Navbar = () => {
   return (
     <nav className='navbar'>
-   <Linksler/>
+   <Linksler />
     </nav>
   )
 }

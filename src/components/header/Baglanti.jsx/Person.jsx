@@ -3,7 +3,10 @@ import personIcon from '../navbar/nav-img/person.png'
 
 const Person = () => {
   return (
-   <img src={personIcon} alt="" />
+    <div className='person-icon cursor'>
+      <img src={personIcon} alt="" />
+
+    </div>
   )
 }
 
