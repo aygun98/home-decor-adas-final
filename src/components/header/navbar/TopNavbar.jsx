@@ -6,13 +6,13 @@ import Person from '../Baglanti.jsx/Person'
 import Sebet from '../Baglanti.jsx/Sebet'
 import { FaBars } from "react-icons/fa6";
 
-const TopNavbar = ({ showMobil }) => {
+const TopNavbar = ({ showMobil, showSearch }) => {
   return (
       <div className='top'>
           <div className='top-left'>
               <span className="cursor" >AZ</span>
               <div>
-                  <Search  />
+                  <Search showSearch={showSearch}  />
               </div>
 
           </div>
@@ -28,7 +28,7 @@ const TopNavbar = ({ showMobil }) => {
 
           </div>
           <div className="mobile-bars">
-              <Search  />
+              <Search showSearch={showSearch} />
               <FaBars className='bars-icon cursor' onClick={showMobil} />
           </div>
       </div>

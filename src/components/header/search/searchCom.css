@@ -1,0 +1,57 @@
+.bg-searchCom-container{
+     position: fixed;
+     z-index: 2;
+     background-color: rgba(4, 8, 8, 0.24);
+     width: 100%;
+     /* top: -100%; */
+     height: 100vh;
+     left: 0;
+     top: 0;
+     bottom: 0;
+     visibility: hidden;
+     opacity: 0;
+     transition: 1s;
+}
+.bg-searchaktiv{
+  visibility: visible;
+  opacity: 1;
+  transition: 1s;
+}
+.searchCom-container{
+    position: fixed;
+    background-color: var(--bg-colo0);
+    /* background-color: aqua; */
+    width: 100%;
+    height: 50px;
+    top: -100%;
+    left: 0;
+    padding: 10px;
+    z-index: 3;
+
+}
+.searchaktiv{
+  top: 0;
+}
+.searchCom-container .searchCom form{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+}
+.searchCom-container .searchCom form .input-div {
+    width: 100%;
+    /* height: 100%; */
+}
+.searchCom-container .searchCom form .input-div input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 10px ;
+     background-color: var(--bg-colo0);
+  
+}
+.search-icon{
+    width: max-content;
+}
