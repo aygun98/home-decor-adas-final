@@ -6,19 +6,19 @@ const Linksler = () => {
             <NavLink className={({ isActive }) =>isActive ? "navActive" : ""} to='/' >
                 Home
             </NavLink>
-            <NavLink to= ''>
+            <NavLink className={({ isActive }) => isActive ? "navActive" : ""} to='/about'>
                 About
             </NavLink>
-            <NavLink to=''>
+            <NavLink className={({ isActive }) => isActive ? "navActive" : ""} to='/products'>
                 Products
             </NavLink>
-            <NavLink to=''>
+            <NavLink className={({ isActive }) => isActive ? "navActive" : ""} to='/collections'>
                 Collections
             </NavLink>
-            <NavLink to=''>
+            <NavLink className={({ isActive }) => isActive ? "navActive" : ""} to='/sale'>
                 Sale
             </NavLink>
-            <NavLink to=''>
+            <NavLink className={({ isActive }) => isActive ? "navActive" : ""} to='/contact'>
                 Contact
             </NavLink>
         </div>

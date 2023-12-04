@@ -5,6 +5,7 @@ import Search from '../Baglanti.jsx/Search'
 import Person from '../Baglanti.jsx/Person'
 import Sebet from '../Baglanti.jsx/Sebet'
 import { FaBars } from "react-icons/fa6";
+import { Link } from 'react-router-dom'
 
 const TopNavbar = ({ showMobil, showSearch }) => {
   return (
@@ -20,7 +21,7 @@ const TopNavbar = ({ showMobil, showSearch }) => {
               <img src={logo} alt="" /></div>
           <div className='top-right'>
               <div>
-                  <Person />
+                  <Link to='login'><Person /></Link>   
               </div>
               <div>
                   <Sebet />

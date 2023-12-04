@@ -8,6 +8,7 @@ import SearchCom from './search/SearchCom'
 
 
 
+
 const Header = () => {
     const [searchOpen, setSearchOpen] =useState(false)
     const showSearch =()=>{setSearchOpen(true)}
@@ -30,6 +31,7 @@ const Header = () => {
         <TopNavbar showMobil={showMobil} showSearch={showSearch} />
       </div>
       <Navbar showSearch={showSearch} />
+      
     </header>
   )
 }
