@@ -1,13 +1,14 @@
 import React from 'react'
-import Header from '../header/Header'
+import HomeHeader from './HomeHeader/HomeHeader'
+
 
 const Home = () => {
   return (
     <div>
-        {/* <Header/> */}
+       <HomeHeader/>
 
 
-        home
+        
     </div>
   )
 }

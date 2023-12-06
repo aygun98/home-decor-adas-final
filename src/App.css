@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 :root{
   
   --color0 :#2D2D2B;
-  --color1: #B8926A;
+  --color1: #B8926A; 
   --bg-colo0 : #EAE6DF;
   --bg-color1: #D4C8BE; 
-  
+  --font-family2: 'GFS Didot',serif;
 
 }
 *{
   font-family: 'Raleway',sans-serif;
+ 
   box-sizing: border-box;
   margin: 0;
   padding: 0;
