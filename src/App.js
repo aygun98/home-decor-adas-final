@@ -10,7 +10,7 @@ import Contact from './pages/contact/Contact';
 
 import Layout from './components/layout/Layout';
 import Login from './pages/login/Login';
-import { RxHalf2 } from 'react-icons/rx';
+// import { RxHalf2 } from 'react-icons/rx';
 
 
 

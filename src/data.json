@@ -738,5 +738,27 @@
             "price": "220"
         }
     ],
-    "cart": []
+    "cart": [],
+    "swiper": [
+        {   "id":1,
+            "img":"https://s3-alpha-sig.figma.com/img/fc4f/78b4/52608fae9d209c21479bbc2e3acdb8da?Expires=1702857600&Signature=QACsLN9VSI2ZaOpjnNygfZwEp0aOlD3cIS60BCAs6Esto0zowqr2CKQ2o6M3gxj5FnURAlt2lrD53FpHxT3MEQVlLNcBtdey2GnjoYrU90b7zsUuWKze8DK3g0tkZXkD~TDS3pkr4FCBRMslTKf3vjJa97zBFAdx3U4J84v~Dy1QPoAVOAi81c1Gbhp-Gyq2o2znwWlDO1qDUaytUlwRn9eTCGUsSZtjnRJe9wK01SK6rtp6OdIKTna72qc--R~-qd~5Ly-082HCwRlRJ13rHMXP0GABbIyuQBQGcoQ-Y7OnkAAZxQ1mzNKMTciALByVWp4ZDNBhNLz2Z0cR6qyIbA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+     "id": 2,
+         "img":"https://s3-alpha-sig.figma.com/img/872f/f807/ccb92b737b3915871daaeca675cd8aab?Expires=1702857600&Signature=F3iG7Bk4xCtaLPa0eT4hk5bg~oobY6D6a5RSri9yovFwNaabsnf4~t~4CccbHv9kBroOThYnlofAjOpEAuvxq0BRB1cq7Oa--jG2TmLJXltujMDV5PfSleYDrIYoH1G5oDi31qpfJj7t8KqcTgWHhf6MmyBkMLn3OBdw2swA88YrH7FFYVnO2XV~TX8RwbLzhPUbgz5GgRHt-6vVVwEsqLvpJLctzoQsRlhfY9KHJ11PbqkTlsTr0WKunGT28gpTX6l700OesYTMUOSFGJTojzB9fvUZt~~YXGjuJZ3QuLShDf4V9cU1tpe09nCjEiBEYmkKiGrIGdBwgOgTpX2Gag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+ }
+
+ ,
+     {
+     "id": 3,
+         "img":"https://s3-alpha-sig.figma.com/img/3360/f18d/48cc860c94299bbd7c2cee006cd392c8?Expires=1702857600&Signature=lqdZJMA7jxd844GB4FNU7~f54DKbrJC1LjNhAUq1YTUPEs93svjkanUCB3Y10naJ2cRkOyykOuNeqhDFszLv2Xa-zcReEUfK6khKU4vlPzq7Me9tZHb8u6JRGLsyHjXKkHjrhXMhpVMSj8~HMsjlys9Lw5v5g4bVNrC~2Y1N7MC01-DInDGRuLxxgyXd2nzrFQfg8IgKN9cnxTxIg1jo-Szd5ol09U0Up4wxQTjKuCmZo0-IBxzGSzSsNR6cd2MB3P72dABu~-tkR3mQrH8pcqo3OphrjaSTfNVyPBEtJMxCcKJkiIl5PyCtokbhtrrFsuvwvcQmAU2jpXbhsT3INA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+ }
+
+ ,
+     {
+     "id": 4,
+         "img":"https://s3-alpha-sig.figma.com/img/5c25/6005/1de18f9d6f23b51045fc7090b7c82a42?Expires=1702857600&Signature=E0cFpyf7ZU0YJRkGsAW36TGc45iHbdjwhO-P~I3A6XQh11D6LsVCNSceh7qmRqrKQ1hOeqAmoCjba4YIXLpIWwFxADPpJ6uqOLob4lP7nAkIVExmo8CRLQMgEUTROPTGOxRcaooCgoa9ZHFTbKetmsQbeBbUKo62~Ws8nQkhhrnwhrFKUjFYgojFGOrVNE2W1BUbqgbKebDEFn2puoPvKV8ZAxbh2A56PZGoODZsfZDe~GK0EBenFqAUndvW-MkZF~XOQ3MaLRHZ0J~ynR7JnpP9GfifrwuQLJRy1WsnFcwYFqYZLHnevK-rXd8ybWBkV0Yf4KBFD-qIKejtHQRJQg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+  } 
+]
+    
 }]
